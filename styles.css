@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Science Gothic", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+    -webkit-text-stroke: 3px white;
+
+}
+
+#quoteGen {
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 20px 40px 40px;
+}
+
+#quoteGen button {
+    background: #3366CC;
+    margin: 0 0 40px;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    color: black;
+    padding: 15px;
+    font: 22px/1.6 "Science Gothic", sans-serif;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+}
+
+#quoteGen button:hover {
+    opacity: 0.7;
+}
+
+#quoteGen #quote p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#quoteGen #quote em {
+    text-align: right;
+    display: block;
+}
+
+#time {
+    font-size: 8rem;
+}
+
+h1 {
+    margin-bottom: 3rem;   
+
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    
+}
+
+.stroke-fix {
+   paint-order: stroke fill;
+}
+
+.affirmation {
+    font-family: "Coiny", system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.quote {
+    font-family: "Quantico", sans-serif;
+}
+
+@media(max-width: 700px){
+    #time{
+        font-size: 6rem;
+    }
+
+}

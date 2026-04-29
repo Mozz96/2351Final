@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>A Time to Reflect (And Set Some Goals!)</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="stroke-fix">
+        <time id="time">\</time>
+        <h1>
+            <span id="greeting"></span>
+            <span id="name" contenteditable="true"></span>
+        </h1>
+
+        <h2>Set your goal for today:</h2>
+        <h2 id="goal" contenteditable="true"></h2><br>
+
+        <h2>Now affirm it with a quote:</h2><br>
+
+        <div class="quote" id="quoteGen">
+            <h2>Inspirational Quote of the Day</h2>
+            <button onclick="generateNewQuote()">Get Inspired!</button>
+            <div id="quote">
+                <p></p>
+                <em></em>
+            </div>
+        </div><br>
+
+        <h1 class="affirmation"><i>Ready? Now go out and make some history!</i></h1>
+        <script src="app.js"></script>
+    </body>
+</html>
